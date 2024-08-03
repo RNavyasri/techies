@@ -1,0 +1,24 @@
+.centered-container {
+    text-align: center;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adjust the space between options as needed */
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: grey;
+    cursor: pointer;
+    width: 200px; /* Optional: set a fixed width for consistency */
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  

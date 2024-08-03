@@ -1,0 +1,75 @@
+/* General container for the quiz */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Box for the question and options */
+  .quiz-box {
+    margin-top: 200px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 600px; /* Ensure box does not get too wide */
+  }
+  
+  /* Question text styling */
+  .quiz-question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the list of answer options */
+  .quiz-options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styling for each answer option button */
+  .quiz-option-button {
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+    display: block;
+    width: 100%;
+  }
+  
+  .quiz-option-button:hover {
+    background-color: #005f8a;
+    transform: scale(1.05);
+  }
+  
+  /* Styling for the score display */
+  .quiz-score {
+    margin-top: 300px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Adding responsiveness */
+  @media (max-width: 600px) {
+    .quiz-question {
+      font-size: 1.2em;
+    }
+  
+    .quiz-option-button {
+      font-size: 0.9em;
+    }
+  }

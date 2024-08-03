@@ -1,0 +1,24 @@
+/* JobVsStartup.css */
+.guide-container {
+    /*background-image: url('/public/startup.jpg'); Correct path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white; /* Adjust text color for better contrast */
+  }
+  
+  .guide-section {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: add background color for readability */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .guide-content {
+    margin: 0;
+  }
+  
+  /* Hide individual images */
+  .guide-image {
+    display: none;
+  }

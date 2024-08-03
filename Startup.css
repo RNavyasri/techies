@@ -1,0 +1,113 @@
+/* Common background color for all pages */
+body {
+  background-color: #d0e6f9; /* Light blue color */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for startup ideas */
+.startup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* List of startup ideas */
+.startup-list {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 20px;
+  width: 100%;
+  max-width: 800px; /* Center content */
+}
+
+/* Individual startup box */
+.startup-box {
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px; /* Ensure uniform width */
+  text-align: center;
+  background-color: #fff; /* White color for the box */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.startup-box:hover {
+  transform: scale(1.05); /* Enlarge box on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Image container for list view */
+.startup-image-container {
+  height: 150px; /* Fixed height */
+  overflow: hidden;
+}
+
+.startup-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Link styles */
+.startup-link {
+  text-decoration: none;
+  color: #278092; /* Link color */
+  display: block;
+}
+
+.startup-link h2 {
+  margin: 10px 0;
+}
+
+/* Detail view styles */
+.startup-detail-container {
+  margin-top: 100px;
+  margin-left: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 800px; /* Center content */
+  background-color: #d0e6f9; /* Light blue background for detail view */
+  padding: 20px;
+}
+
+.startup-detail-box {
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px; /* Maintain box width */
+  background-color: #fff; /* White color for the box */
+  text-align: center;
+}
+
+/* Smaller square image in detail view */
+.startup-detail-image {
+  width: 400px; /* Set width */
+  height: 250px; /* Set height */
+  object-fit: cover; /* Ensure image fits within dimensions */
+  margin: 0 auto; /* Center-align the image */
+}
+
+/* Description styling for detail view */
+.startup-description {
+  padding: 20px;
+}
+
+/* Paragraph styling for description */
+.description-paragraph {
+  margin: 10px 0;
+}
+
+/* Hover effect for detail view */
+.startup-detail-container:hover .startup-box {
+  transform: scale(1.05); /* Enlarge box on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}

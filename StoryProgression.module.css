@@ -1,0 +1,75 @@
+/* StoryProgression.module.css */
+
+.story-progress-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.story-progress-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.story-progress-container p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+.story-progress-container button {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 4px;
+  background-color: #278092;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background-color 0.3s;
+}
+
+.story-progress-container button:hover {
+  background-color: #1a5a6a;
+}
+
+.question {
+  margin-bottom: 1em;
+}
+
+.question label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.question .options {
+  list-style: none;
+  padding: 0;
+}
+
+.question .options li {
+  margin-bottom: 0.5em;
+}
+
+.question .options input {
+  margin-right: 0.5em;
+}
+
+.decision-result {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.decision-result h2 {
+  margin-bottom: 1em;
+}
+
+.decision-result p {
+  font-size: 1.2em;
+}

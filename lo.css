@@ -1,0 +1,60 @@
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap as needed */
+    max-width: 1200px; /* Set a max-width for centering */
+    justify-content: center;
+  }
+  
+  .icon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #fff;
+  }
+  
+  .icon-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon-card p {
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+  }
+  

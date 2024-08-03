@@ -1,0 +1,49 @@
+/* Ensure the guide container is centered and has some padding */
+.guide-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Style the video container */
+  .media-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the video element */
+  video {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Style for each section */
+  .section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Style the section titles */
+  .section h2 {
+    cursor: pointer;
+    color: #007bff;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style the section content */
+  .section p {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+    white-space: pre-line; /* Preserve whitespace for content */
+  }
+  
