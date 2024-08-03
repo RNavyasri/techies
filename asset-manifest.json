@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/techies/static/css/main.7d548337.css",
+    "main.js": "/techies/static/js/main.3254a5c4.js",
+    "static/js/453.ed3810f9.chunk.js": "/techies/static/js/453.ed3810f9.chunk.js",
+    "static/media/photostocks.jpg": "/techies/static/media/photostocks.bc6ecf39dfb5e44e08aa.jpg",
+    "static/media/yt.jpg": "/techies/static/media/yt.e9c35bdf47d9aa4b5286.jpg",
+    "static/media/tinder.jpg": "/techies/static/media/tinder.9e3b62e440c930b6b53f.jpg",
+    "static/media/food-truck.jpg": "/techies/static/media/food-truck.d8a0514191a228254a3b.jpg",
+    "static/media/books.jpg": "/techies/static/media/books.2bf724d36a3f93d6ef64.jpg",
+    "static/media/plants.jpg": "/techies/static/media/plants.e01c0f93cc56e9bd026e.jpg",
+    "static/media/solar-panel.jpg": "/techies/static/media/solar-panel.ebc37d2f7580f23f40e1.jpg",
+    "static/media/date-planner.jpg": "/techies/static/media/date-planner.32a6439373d075b44a18.jpg",
+    "static/media/fb.jpg": "/techies/static/media/fb.5088cc04035069877a56.jpg",
+    "static/media/laundry-service.jpg": "/techies/static/media/laundry-service.f1a07bde0a4a1b8a29bf.jpg",
+    "static/media/whatsapp.jpg": "/techies/static/media/whatsapp.c262910f088b32d8e3bd.jpg",
+    "static/media/tracking-device.jpg": "/techies/static/media/tracking-device.965d299feb85fdf30b92.jpg",
+    "static/media/e1.jpg": "/techies/static/media/e1.b401bcc8cf0917e4d2e8.jpg",
+    "static/media/telegram.jpg": "/techies/static/media/telegram.3d6fc50ccf7b7ac79ef6.jpg",
+    "static/media/music-school.jpeg": "/techies/static/media/music-school.f6e67efddac1021b8bcd.jpeg",
+    "static/media/home-automation.jpeg": "/techies/static/media/home-automation.44542561e8a7477ac8a2.jpeg",
+    "static/media/paytm.jpg": "/techies/static/media/paytm.f8d04ae8d654b46e0e1a.jpg",
+    "index.html": "/techies/index.html",
+    "main.7d548337.css.map": "/techies/static/css/main.7d548337.css.map",
+    "main.3254a5c4.js.map": "/techies/static/js/main.3254a5c4.js.map",
+    "453.ed3810f9.chunk.js.map": "/techies/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d548337.css",
+    "static/js/main.3254a5c4.js"
+  ]
+}
